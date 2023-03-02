@@ -28,7 +28,7 @@ public class HIndex {
         // 향상된 for문 : citations 각각의 값을 citation으로 정의
         for (int citation : citations) {
             // h의 최대값은 결국 배열의 길이가 될 것임.
-            // citation이 배열을 길이보다 작다면 최대값이 1이 줄어듦.
+            // citation이 배열의 길이보다 작다면 1이 줄어듦.
             if (citation < answer) answer--;
         }
 
